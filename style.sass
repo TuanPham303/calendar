@@ -1,24 +1,46 @@
-.container
-   position: absolute
-   top: 50%
-   left: 50%
-   transform: translateX(-50%) translateY(-50%)
-   display: block
-   #monthYear
-      text-align: center
-      margin-bottom: 20px
-   #days
-      display: inline-block
-      width: 100%
-      .day, 
+body
+   background-color: #F3F3F3 
+   .container
+      font-family: 'Open Sans', sans-serif
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translateX(-50%) translateY(-50%)
+      display: block
+      img
+         position: relative
+         left: 5%
+         margin: 30px 0
+      #monthYear
+         position: absolute
+         right: 20%
+         top: 15%
+         color: #004A96
+         font-size: 40px
+         font-weight: bold
+      #days
+         font-weight: bold 
+         font-size: 1.5em
+         color: #515558
          display: inline-block
-         text-align: center
-         width: calc(100%/7)
-   #dates
-      display: inline-block
-      width: 100%
-      .date
+         width: 100%
+         .day, 
+            display: inline-block
+            text-align: center
+            width: calc(100%/7)
+            height: 50px
+      #dates
          display: inline-block
-         text-align: center
-         width: calc(100%/7)
+         width: 100%
+         color: #5A5D62
+         .date
+            display: inline-block
+            text-align: center
+            width: calc(100%/7)
+            height: 50px
+            line-height: 50px
+            &:hover
+               background-color: #5A5D62 
+               color: #fff
+
 

@@ -36,7 +36,7 @@ function buildDates(lastDate, dayNumber) {
       }
       var space=document.createElement('div')
       space.className+="date"
-      space.innerHTML=""
+      space.innerHTML="&nbsp;"
       datesContainer.appendChild(space)
    }
    //add the dates
